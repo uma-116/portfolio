@@ -1,16 +1,28 @@
 body{
   background: #81bcd8;
+  font-family: 'impact';
+  
+  line-height: 1;
 }
 
 .header {
   background: #fff;
   display: flex;
-  padding: 60px 20px;
+  padding: 60px 10px;
   position: fixed;
   justify-content: space-between;
   width: 100%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  z-index: 99;
+  font-weight: bold;
   
+  &__logo{
+    font-size: 34px;
+  }
+
   &__nav{
+    font-size: 20px;
     &__menu{
       display: flex;
       &__item{
@@ -26,7 +38,7 @@ body{
 }
 
 .tabletennis {
-  max-height: 500px;
+  max-height: 800px;
     overflow: hidden;
 }
 
@@ -34,10 +46,13 @@ body{
   line-height: 1.6;
   margin: 0 auto;
   padding-top: 100px;
+  height: 500px;
   width: 800px;
 }
 
 .footer{
+  height: 100px;
   background: #333;
   padding: 80px 0;
+  margin: 0 auto;
 }
