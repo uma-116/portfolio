@@ -1,1 +1,29 @@
-index
+.header
+  .header__logo
+    logo
+  .header__nav
+    %ul.header__nav__menu
+      %li.header__nav__menu__item
+        = link_to "#" do
+          About
+      %li.header__nav__menu__item
+        = link_to "#" do
+          Works
+      %li.header__nav__menu__item
+        = link_to "#" do
+          Recruit
+      %li.header__nav__menu__item
+        = link_to "#" do
+          News
+      %li.header__nav__menu__item
+        = link_to "#" do
+          Contact
+
+      
+.tabletennis
+  = image_tag asset_path("table-tennis.jpg"), size: "1440x1080", alt: "tabletennis"
+
+.content
+
+.footer
+  .footer__copyright
