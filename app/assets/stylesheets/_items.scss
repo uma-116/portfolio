@@ -79,7 +79,7 @@ body{
   line-height: 1.6;
   margin: 0 auto;
   padding-top: 70px;
-  height: 500px;
+  height: auto;
   width: 800px;
   color: #333;
   font-size: 30px;
@@ -87,10 +87,31 @@ body{
   font-weight: bold;
   &__list{
     &__item{
+      padding-top: 120px;
       margin-bottom: 30px;
       &--text{
         font-size: 20px;
       }
+      &--card-wrapper{
+        font-size: 17px;
+        padding: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .card{
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          min-width: 0;
+          word-wrap: break-word;
+          background-color: #fff;
+          background-clip: border-box;
+          border: 1px solid rgba(0,0,0,.125);
+          border-radius: .25rem;
+        }
+      }
+
+    
     }
   }
 

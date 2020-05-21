@@ -4,16 +4,16 @@
   .header__nav
     %ul.header__nav__menu
       %li.header__nav__menu__item
-        = link_to "#" do
+        = link_to "#about" do
           About
       %li.header__nav__menu__item
-        = link_to "#" do
+        = link_to "#works" do
           Works
       %li.header__nav__menu__item
-        = link_to "#" do
+        = link_to "#skill" do
           Skill
       %li.header__nav__menu__item
-        = link_to "#" do
+        = link_to "#contact" do
           Contact
 
       
@@ -28,18 +28,66 @@
 
 .content
   %ul.content__list
-    %li.content__list__item
+    %li#about.content__list__item
       About
       .content__list__item--text
-        略歴はかくかくしかじか
-        %br
         佐藤 雄真と申します。
         %br
-    %li.content__list__item
+        2015年に新卒採用にて自動車メーカーに入社し、生産実習などの導入研修後海外営業部門に配属となりました。
+        %br
+        業務内容としましては担当国を数カ国持ち、毎月の販売実績管理や予算管理、債権回収、また、駐在事務所の費用処理などを担当いたしました。
+        %br
+        その後、別の自動車メーカーに入社し、そちらではアフリカ・中東地域の四輪営業として、販売実績や予算の管理、また生産調整業務などを担当いたしました。
+    %li#works.content__list__item
       Works
-    %li.content__list__item
+      .content__list__item--card-wrapper
+        .card
+          .card-caption
+            .card-caption-title
+              ポートフォリオ
+            .card-caption-info
+              自分自身のポートフォリオです
+            .card-caption-info
+              Rails/HTML/CSS
+            .card-caption-url
+              
+        .card
+          .card-caption
+            .card-caption-title
+              ポートフォリオ
+            .card-caption-info
+              自分自身のポートフォリオです
+            .card-caption-info
+              Rails/HTML/CSS
+            .card-caption-url
+        .card
+          .card-caption
+            .card-caption-title
+              ポートフォリオ
+            .card-caption-info
+              自分自身のポートフォリオです
+            .card-caption-info
+              Rails/HTML/CSS
+            .card-caption-url
+
+    %li#skill.content__list__item
       Skill
-    %li.content__list__item
+      .content__list__item--text
+        %br
+        HTML/CSS
+        %br
+        Ruby
+        %br
+        Ruby on Rails
+        %br
+        Swift
+        %br
+        JavaScript
+        
+
+
+
+    %li#contact.content__list__item
       Contact
 .footer
   .footer__copyright
